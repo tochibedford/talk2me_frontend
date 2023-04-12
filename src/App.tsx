@@ -9,6 +9,7 @@ function App() {
     <Routes>
       <Route element={<NavLayout />}>
         <Route path="/" element={<SearchAndChat />} />
+        <Route path="/:twitterId/chat" element={<SearchAndChat />} />
       </Route>
     </Routes>
   )
