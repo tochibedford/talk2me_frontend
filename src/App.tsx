@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 import './App.module.scss'
 import NavLayout from './components/NavLayout'
-import SearchAndChat from './SearchAndChat'
+import SearchAndChat from './components/SearchAndChat'
 
 function App() {
 
