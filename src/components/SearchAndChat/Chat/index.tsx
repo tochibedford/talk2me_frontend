@@ -1,9 +1,9 @@
 import styles from "./Chat.module.scss"
+import { useEffect } from "react"
 import { useParams, Link } from "react-router-dom"
 
 export default function Chat() {
     const { twitterId } = useParams()
-    console.log(twitterId)
     return (
         <div className={`${styles.container} ${twitterId ? styles.focused : ""}`}>
             <Link to="/">
